@@ -1,0 +1,40 @@
+{
+  "name": "@zalari-oss/ce-hello-world-pure",
+  "version": "0.1.0",
+  "description": "This is a verrry simple CustomElement built with VanillaJS(TM)",
+  "main": "dist/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel",
+    "start": "parcel src/index.html",
+    "build": "shx rm -rf dist/* && shx cp src/index.js dist/",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalari/ce-hello-world-pure.git"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "keywords": [
+    "custom",
+    "element",
+    "custom",
+    "elements",
+    "oss",
+    "vanillajs",
+    "web",
+    "components"
+  ],
+  "author": "Christian Ulbrich <christian.ulbrich@zalari.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zalari/ce-hello-world-pure/issues"
+  },
+  "homepage": "https://github.com/zalari/ce-hello-world-pure#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "shx": "^0.3.2"
+  }
+}
