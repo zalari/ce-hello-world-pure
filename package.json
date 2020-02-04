@@ -1,6 +1,6 @@
 {
   "name": "@zalari-oss/ce-hello-world-pure",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "This is a verrry simple CustomElement built with VanillaJS(TM)",
   "main": "dist/index.js",
   "scripts": {
