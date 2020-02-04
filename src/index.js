@@ -25,7 +25,7 @@
 
   };
 
-  customElementz.define('z4i-hello-world', Z4iHelloWorld);
+  customElements.define('z4i-hello-worldz', Z4iHelloWorld);
 
 
 }();
