@@ -20,7 +20,7 @@
     }
 
     render() {
-      return `<div>Hello Worldz!</div>`;
+      return `<div>Hello World!</div>`;
     }
 
   };
